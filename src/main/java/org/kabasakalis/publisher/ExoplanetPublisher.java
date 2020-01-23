@@ -8,8 +8,8 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 /**
- * A bean producing random prices every 5 seconds.
- * The prices are written to a Kafka topic (prices). The Kafka configuration is specified in the application configuration.
+ * A bean producing random exoplanets every 5 seconds.
+ * The prices are written to a Kafka topic (exoplanet-discovered). The Kafka configuration is specified in the application configuration.
  */
 @ApplicationScoped
 public class ExoplanetPublisher {

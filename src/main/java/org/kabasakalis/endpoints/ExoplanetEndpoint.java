@@ -21,7 +21,7 @@ public class ExoplanetEndpoint {
   @Channel("exoplanet-processed") Publisher<String> exoplanets;
 
   @GET
-  @Path("/exoplanet-stream")
+  @Path("/stream")
   @Produces(MediaType.SERVER_SENT_EVENTS)
   @SseElementType("text/plain")
   public Publisher<String> stream() {
